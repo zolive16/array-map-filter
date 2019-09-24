@@ -1,30 +1,35 @@
-/* Array.prototype.filter - Exercice 3
+/* Array.prototype.filter - Exercice 4
 
-Ecrire une fonction keepStarks, qui prend en arguments un tableau de chaînes
-(plus spécifiquement, des noms de personnages de Game of Thrones).
+Ecrire une fonction filterOnPrice, qui attend 2 arguments:
+1. Un tableau d'objets représentant des produits, chacun ayant deux propriétés:
+  - name
+  - price
+2. Un prix maximum
 
-La fonction doit renvoyer un tableau ne contenant que les membres de la famille Stark.
-
-Il y a plusieurs façons d'écrire cette fonction, et outre filter, tu auras probablement
-besoin d'une de ces méthodes de String: endsWith ou split.
+La fonction doit renvoyer un tableau ne contenant que les produits ne dépassant pas le prix
+maximum.
 
 Exemple d'entrée:
-  [
-    'Bran Stark',
-    'Cersei Lannister',
-    'Sandor Clegane',
-    'Arya Stark',
-    'Yara Greyjoy',
-    'Sansa Stark'
-  ]
+
+1. tableau de produits:
+[
+  { name: 'iPhone X', price: 1159 },
+  { name: 'Xiaomi Mi A2', price: 209 },
+  { name: 'Samsung Galaxy Note 9', price: 992 },
+  { name: 'Huawei P20', price: 480 },
+  { name: 'Huawei P20 Pro', price: 649 }
+]
+2. prix maximum: 500
 
 Sortie attendue:
-  ['Bran Stark', 'Arya Stark', 'Sansa Stark']
-
+  [
+    { name: 'Xiaomi Mi A2', price: 209 },
+    { name: 'Huawei P20', price: 480 }
+  ]
  */
 
-function keepStarks(names) {
+function filterOnPrice(products, maxPrice) {
 }
 
 // Ne pas modifier l'export
-module.exports = keepStarks;
+module.exports = filterOnPrice;
