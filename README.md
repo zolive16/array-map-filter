@@ -21,8 +21,8 @@ Tous les tests sont désactivés au début (`SKIP` en bleu clair si vous faites 
 
 **Les tests se réactivent 1 par 1**:
 
-    * soit en remplaçant `xdescribe` par `describe`, dans le fichier de test correspondant à l'exercice sur lequel on travaille (par exemple, `tests/filter1.js` si on travaille sur `filter/ex1.js`).
-    * soit plus simplement en lançant, depuis la racine du repo `array-map-filter`, `./enable SERIE NUMERO`, en remplaçant `SERIE` par `map` ou `filter` et `NUMERO` par le n° de l'exercice. Par exemple, `./enable map 2` pour activer les tests du 2ème exercice de la série `map`.
+* soit en remplaçant `xdescribe` par `describe`, dans le fichier de test correspondant à l'exercice sur lequel on travaille (par exemple, `tests/filter1.js` si on travaille sur `filter/ex1.js`).
+* soit plus simplement en lançant, depuis la racine du repo `array-map-filter`, `./enable SERIE NUMERO`, en remplaçant `SERIE` par `map` ou `filter` et `NUMERO` par le n° de l'exercice. Par exemple, `./enable map 2` pour activer les tests du 2ème exercice de la série `map`.
 * On peut également les activer / désactiver tous d'un coup, via `./enableAll` et `./disableAll`
 
 ## HELP! J'ai cloné sans forker !
