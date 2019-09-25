@@ -7,15 +7,17 @@
 * **Si** tu as cloné d'abord sans forker, pas de panique, voir à la fin (mais lis d'abord les instructions la prochaine fois :wink:)
 * Une fois le repo cloné, se placer dans le répertoire `array-map-filter`, puis lancer `npm install`
 
-## Usage
+## Utilisation
 
-**Absolument lire** la partie sur "réactiver les tests", ci-dessous !
+**Absolument lire** la partie sur "réactiver les tests" dans cette section !
+
+### Lancer les tests
 
 * Il y a deux séries d'exercices, situées dans `map` et `filter`.
 * L'ordre importe peu entre `map` et `filter`.
 * Pour lancer les tests: `npm test`
 
-## Réactiver les tests
+### Réactiver les tests
 
 Tous les tests sont désactivés au début (`SKIP` en bleu clair si vous faites `npm test`), pour ne pas "polluer" le terminal avec les messages d'erreurs dûs au fait que les exercices sont non-résolus.
 
