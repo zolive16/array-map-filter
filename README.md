@@ -2,8 +2,9 @@
 
 ## Installation
 
-* **D'abord** forker, **puis** cloner ce repo (indispensable pour Travis, sinon ça marche quand même sans Travis)
-* **Si** tu as cloné d'abord sans forker, pas de panique, voir à la fin !
+* **D'abord** forker ce repo (bouton ci-dessus à droite)
+* Tu seras alors redirigé vers la copie créée sur ton compte, dont tu devras récupérer l'URL pour la **cloner** sur ton ordinateur.
+* **Si** tu as cloné d'abord sans forker, pas de panique, voir à la fin (mais lis d'abord les instructions la prochaine fois :wink:)
 * Une fois le repo cloné, se placer dans le répertoire `array-map-filter`, puis lancer `npm install`
 
 ## Usage
